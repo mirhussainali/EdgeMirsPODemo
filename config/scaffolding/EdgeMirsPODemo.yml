@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeMirsPODemo
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali/EdgeMirsPODemo
+  gitUsername: mirhussainali
+  gitToken: edge.scaffolding.EdgeMirsPODemo.MirsGit.gitToken
+  gitBranch: main
