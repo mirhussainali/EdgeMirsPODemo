@@ -1,10 +1,29 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
+- serviceName: edge.mirspodemo.integrations:dadaSampleFS2
+  packages:
+  - name: EdgeMirsPODemo
+    version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
 packages:
 - name: EdgeMirsPODemo
   gitServerName: MirsGit
   gitUrl: https://github.com/mirhussainali/EdgeMirsPODemo
   gitUsername: mirhussainali
   gitToken: edge.scaffolding.EdgeMirsPODemo.MirsGit.gitToken
+  gitBranch: main
+- name: wmCustomDBServices
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali
+  gitUsername: mirhussainali
+  gitToken: edge.scaffolding.wmCustomDBServices.MirsGit.gitToken
   gitBranch: main
