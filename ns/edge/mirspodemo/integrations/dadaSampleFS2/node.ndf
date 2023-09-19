@@ -62,7 +62,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1695097736452</value>
+    <value name="lastModifiedDate">1695098026524</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">85b8c18bb7194779ad70d4796418a755</value>
       <value name="group">default</value>
@@ -147,6 +147,7 @@
         <number name="ui_step_index" type="Long">4</number>
         <number name="nodeIndex" type="Long">3</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/4" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -165,6 +166,25 @@
         <number name="nodeIndex" type="Long">4</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/5" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">wmCustomDBServices</value>
+          <value name="groupName">wmCustomDBServices;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">DBServices:getPOList</value>
+          <value name="serviceName">DBServices:getPOList</value>
+          <value name="displayName">getPOList</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">6</number>
+        <number name="nodeIndex" type="Long">5</number>
       </record>
     </record>
   </record>
