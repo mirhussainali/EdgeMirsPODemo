@@ -10,10 +10,16 @@ services:
   packages:
   - name: EdgeMirsPODemo
     version: "1.0"
+  - name: wmCustomDBServices
+    version: "1.0"
 - serviceName: pub.date:getCurrentDateString
   packages:
   - name: WmPublic
     version: 11.0.0.0.473
+- serviceName: javautils:multiConcat
+  packages:
+  - name: wmCustomDBServices
+    version: "1.0"
 packages:
 - name: EdgeMirsPODemo
   gitServerName: MirsGit
