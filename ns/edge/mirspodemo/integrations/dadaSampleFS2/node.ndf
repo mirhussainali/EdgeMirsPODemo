@@ -62,7 +62,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1695097710928</value>
+    <value name="lastModifiedDate">1695097736452</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">85b8c18bb7194779ad70d4796418a755</value>
       <value name="group">default</value>
@@ -146,6 +146,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">4</number>
         <number name="nodeIndex" type="Long">3</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/4" javaclass="com.wm.util.Values">
         <null name="name"/>
