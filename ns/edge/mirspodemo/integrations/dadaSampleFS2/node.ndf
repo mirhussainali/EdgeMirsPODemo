@@ -49,6 +49,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
+  <value name="description"></value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
@@ -62,13 +63,15 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1696018153829</value>
+    <value name="lastModifiedDate">1707939547910</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">85b8c18bb7194779ad70d4796418a755</value>
+      <value name="id">b0c70a1a77394302971d2f3f3a47b940</value>
       <value name="group">default</value>
-      <value name="name">MirsEdgeRT</value>
+      <value name="name">MirsEdgeRT3</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">dadaSampleFS2</value>
+    <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <null name="name"/>
